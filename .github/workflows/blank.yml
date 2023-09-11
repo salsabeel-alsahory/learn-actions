@@ -43,4 +43,4 @@ echo This is nultiline script
 pwd
 ls
 - name: print Linux info
-run: cat/etc/lsb_r0l000
+run: cat/etc/lsb-release
