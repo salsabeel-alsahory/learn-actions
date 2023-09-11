@@ -34,13 +34,13 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-test : 
-run-on:ubuntu-latest
-steps:
-- run: |
-echo Hello from Github Action 
-echo This is nultiline script
-pwd
-ls
-- name: print Linux info
-run: cat/etc/lsb-release
+# test : 
+# run-on:ubuntu-latest
+# steps:
+# - run: |
+# echo Hello from Github Action 
+# echo This is nultiline script
+# pwd
+# ls
+# - name: print Linux info
+# run: cat/etc/lsb-release
